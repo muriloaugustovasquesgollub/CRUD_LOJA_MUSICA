@@ -9,3 +9,5 @@ $banco = 'loja_musica';
  if (!$conexao) {
     die ("Erro na conexão");
  }
+
+ mysqli_set_charset($conexao, "utf8");
