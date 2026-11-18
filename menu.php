@@ -1,4 +1,4 @@
-<p>class="menu">
+<p class="menu">
     Olá, <?php echo $_SESSION['usuario']; ?>
     <a href="formulario.php">cadastrar</a>
     <a href="listar.php">Listar</a>

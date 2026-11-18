@@ -13,7 +13,7 @@ $sql = "INSERT INTO instrumentos
 (nome, tipo, marca, preco, estoque) VALUES ('$nome',
 '$tipo', '$marca', '$preco', '$estoque')";
 
-mysql_query($conexao, $sql);
+mysqli_query($conexao, $sql);
 
 $_SESSION["mensagem"] = "Instrumentos cadastro!";
 

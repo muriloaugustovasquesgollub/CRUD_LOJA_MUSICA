@@ -4,7 +4,7 @@ $host = 'localhost';
 $usuario = 'root';
 $senha = 'root';
 $banco = 'loja_musica';       
- $conexao = mysql_connect($host, $usuario, $senha, $banco);
+ $conexao = mysqli_connect($host, $usuario, $senha, $banco);
 
  if (!$conexao) {
     die ("Erro na conexão");
